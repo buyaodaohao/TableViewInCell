@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0360549214F4B4A0034CC09 /* PullListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B0360548214F4B4A0034CC09 /* PullListTableView.m */; };
-		B036054C214F72570034CC09 /* CommenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B036054B214F72570034CC09 /* CommenModel.m */; };
-		B036054F214F75840034CC09 /* MainContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B036054E214F75840034CC09 /* MainContentCell.m */; };
-		B0360552214F75960034CC09 /* OpinionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0360551214F75960034CC09 /* OpinionCell.m */; };
-		B0360555214F78510034CC09 /* OpinionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B0360554214F78510034CC09 /* OpinionModel.m */; };
 		B04C5AB9214B503500EE2A5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B04C5AB8214B503500EE2A5E /* AppDelegate.m */; };
 		B04C5ABC214B503500EE2A5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B04C5ABB214B503500EE2A5E /* ViewController.m */; };
 		B04C5ABF214B503500EE2A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04C5ABD214B503500EE2A5E /* Main.storyboard */; };
@@ -20,6 +15,11 @@
 		B04C5AC7214B503700EE2A5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B04C5AC6214B503700EE2A5E /* main.m */; };
 		B04C5AD1214B503700EE2A5E /* TableViewInCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B04C5AD0214B503700EE2A5E /* TableViewInCellTests.m */; };
 		B04C5ADC214B503700EE2A5E /* TableViewInCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B04C5ADB214B503700EE2A5E /* TableViewInCellUITests.m */; };
+		B05E7CC221F1B54000D2AB10 /* CommenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B05E7CB721F1B54000D2AB10 /* CommenModel.m */; };
+		B05E7CC321F1B54000D2AB10 /* OpinionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B05E7CBA21F1B54000D2AB10 /* OpinionModel.m */; };
+		B05E7CC421F1B54000D2AB10 /* OpinionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B05E7CBC21F1B54000D2AB10 /* OpinionCell.m */; };
+		B05E7CC521F1B54000D2AB10 /* MainContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B05E7CBE21F1B54000D2AB10 /* MainContentCell.m */; };
+		B05E7CC621F1B54000D2AB10 /* PullListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B05E7CC021F1B54000D2AB10 /* PullListTableView.m */; };
 		B073279C21508E5800D74DFA /* testData.json in Resources */ = {isa = PBXBuildFile; fileRef = B073279B21508E5800D74DFA /* testData.json */; };
 		B07327A421509A0400D74DFA /* opinionData.json in Resources */ = {isa = PBXBuildFile; fileRef = B07327A321509A0400D74DFA /* opinionData.json */; };
 		D3C74ED42447D856FCB232BB /* libPods-TableViewInCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0F4D5E33DB053B7A02D7D /* libPods-TableViewInCell.a */; };
@@ -45,16 +45,6 @@
 /* Begin PBXFileReference section */
 		5643CC2CB91A45F366702CE0 /* Pods-TableViewInCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewInCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewInCell/Pods-TableViewInCell.debug.xcconfig"; sourceTree = "<group>"; };
 		565D031BF1DE2401D8195FE4 /* Pods-TableViewInCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableViewInCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableViewInCell/Pods-TableViewInCell.release.xcconfig"; sourceTree = "<group>"; };
-		B0360547214F4B4A0034CC09 /* PullListTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PullListTableView.h; sourceTree = "<group>"; };
-		B0360548214F4B4A0034CC09 /* PullListTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullListTableView.m; sourceTree = "<group>"; };
-		B036054A214F72570034CC09 /* CommenModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommenModel.h; sourceTree = "<group>"; };
-		B036054B214F72570034CC09 /* CommenModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommenModel.m; sourceTree = "<group>"; };
-		B036054D214F75840034CC09 /* MainContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainContentCell.h; sourceTree = "<group>"; };
-		B036054E214F75840034CC09 /* MainContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainContentCell.m; sourceTree = "<group>"; };
-		B0360550214F75960034CC09 /* OpinionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpinionCell.h; sourceTree = "<group>"; };
-		B0360551214F75960034CC09 /* OpinionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpinionCell.m; sourceTree = "<group>"; };
-		B0360553214F78510034CC09 /* OpinionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpinionModel.h; sourceTree = "<group>"; };
-		B0360554214F78510034CC09 /* OpinionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpinionModel.m; sourceTree = "<group>"; };
 		B04C5AB4214B503500EE2A5E /* TableViewInCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewInCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04C5AB7214B503500EE2A5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B04C5AB8214B503500EE2A5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,6 +62,16 @@
 		B04C5ADB214B503700EE2A5E /* TableViewInCellUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewInCellUITests.m; sourceTree = "<group>"; };
 		B04C5ADD214B503700EE2A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B058F284214B8D3E00D65857 /* TableViewInCell-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewInCell-PrefixHeader.pch"; sourceTree = "<group>"; };
+		B05E7CB721F1B54000D2AB10 /* CommenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommenModel.m; sourceTree = "<group>"; };
+		B05E7CB821F1B54000D2AB10 /* OpinionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpinionModel.h; sourceTree = "<group>"; };
+		B05E7CB921F1B54000D2AB10 /* CommenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommenModel.h; sourceTree = "<group>"; };
+		B05E7CBA21F1B54000D2AB10 /* OpinionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpinionModel.m; sourceTree = "<group>"; };
+		B05E7CBC21F1B54000D2AB10 /* OpinionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpinionCell.m; sourceTree = "<group>"; };
+		B05E7CBD21F1B54000D2AB10 /* PullListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullListTableView.h; sourceTree = "<group>"; };
+		B05E7CBE21F1B54000D2AB10 /* MainContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainContentCell.m; sourceTree = "<group>"; };
+		B05E7CBF21F1B54000D2AB10 /* OpinionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpinionCell.h; sourceTree = "<group>"; };
+		B05E7CC021F1B54000D2AB10 /* PullListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullListTableView.m; sourceTree = "<group>"; };
+		B05E7CC121F1B54000D2AB10 /* MainContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainContentCell.h; sourceTree = "<group>"; };
 		B073279B21508E5800D74DFA /* testData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testData.json; sourceTree = "<group>"; };
 		B07327A321509A0400D74DFA /* opinionData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = opinionData.json; sourceTree = "<group>"; };
 		E1E0F4D5E33DB053B7A02D7D /* libPods-TableViewInCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewInCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,30 +111,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B0360545214F4B280034CC09 /* model */ = {
-			isa = PBXGroup;
-			children = (
-				B036054A214F72570034CC09 /* CommenModel.h */,
-				B036054B214F72570034CC09 /* CommenModel.m */,
-				B0360553214F78510034CC09 /* OpinionModel.h */,
-				B0360554214F78510034CC09 /* OpinionModel.m */,
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		B0360546214F4B280034CC09 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				B0360547214F4B4A0034CC09 /* PullListTableView.h */,
-				B0360548214F4B4A0034CC09 /* PullListTableView.m */,
-				B036054D214F75840034CC09 /* MainContentCell.h */,
-				B036054E214F75840034CC09 /* MainContentCell.m */,
-				B0360550214F75960034CC09 /* OpinionCell.h */,
-				B0360551214F75960034CC09 /* OpinionCell.m */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
 		B04C5AAB214B503500EE2A5E = {
 			isa = PBXGroup;
 			children = (
@@ -161,8 +137,7 @@
 		B04C5AB6214B503500EE2A5E /* TableViewInCell */ = {
 			isa = PBXGroup;
 			children = (
-				B0360545214F4B280034CC09 /* model */,
-				B0360546214F4B280034CC09 /* view */,
+				B05E7CB521F1B54000D2AB10 /* TableViewInCellLib */,
 				B04C5AB7214B503500EE2A5E /* AppDelegate.h */,
 				B04C5AB8214B503500EE2A5E /* AppDelegate.m */,
 				B04C5ABA214B503500EE2A5E /* ViewController.h */,
@@ -202,6 +177,39 @@
 				B058F284214B8D3E00D65857 /* TableViewInCell-PrefixHeader.pch */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B05E7CB521F1B54000D2AB10 /* TableViewInCellLib */ = {
+			isa = PBXGroup;
+			children = (
+				B05E7CB621F1B54000D2AB10 /* model */,
+				B05E7CBB21F1B54000D2AB10 /* view */,
+			);
+			path = TableViewInCellLib;
+			sourceTree = "<group>";
+		};
+		B05E7CB621F1B54000D2AB10 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B05E7CB721F1B54000D2AB10 /* CommenModel.m */,
+				B05E7CB821F1B54000D2AB10 /* OpinionModel.h */,
+				B05E7CB921F1B54000D2AB10 /* CommenModel.h */,
+				B05E7CBA21F1B54000D2AB10 /* OpinionModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		B05E7CBB21F1B54000D2AB10 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B05E7CBC21F1B54000D2AB10 /* OpinionCell.m */,
+				B05E7CBD21F1B54000D2AB10 /* PullListTableView.h */,
+				B05E7CBE21F1B54000D2AB10 /* MainContentCell.m */,
+				B05E7CBF21F1B54000D2AB10 /* OpinionCell.h */,
+				B05E7CC021F1B54000D2AB10 /* PullListTableView.m */,
+				B05E7CC121F1B54000D2AB10 /* MainContentCell.h */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		D3454F3B58D32D0A4100A542 /* Pods */ = {
@@ -386,13 +394,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05E7CC221F1B54000D2AB10 /* CommenModel.m in Sources */,
+				B05E7CC321F1B54000D2AB10 /* OpinionModel.m in Sources */,
+				B05E7CC621F1B54000D2AB10 /* PullListTableView.m in Sources */,
+				B05E7CC421F1B54000D2AB10 /* OpinionCell.m in Sources */,
+				B05E7CC521F1B54000D2AB10 /* MainContentCell.m in Sources */,
 				B04C5ABC214B503500EE2A5E /* ViewController.m in Sources */,
-				B0360552214F75960034CC09 /* OpinionCell.m in Sources */,
 				B04C5AC7214B503700EE2A5E /* main.m in Sources */,
-				B036054C214F72570034CC09 /* CommenModel.m in Sources */,
-				B0360549214F4B4A0034CC09 /* PullListTableView.m in Sources */,
-				B036054F214F75840034CC09 /* MainContentCell.m in Sources */,
-				B0360555214F78510034CC09 /* OpinionModel.m in Sources */,
 				B04C5AB9214B503500EE2A5E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
