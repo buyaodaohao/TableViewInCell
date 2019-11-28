@@ -22,6 +22,9 @@
 		B04C5ADC214B503700EE2A5E /* TableViewInCellUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B04C5ADB214B503700EE2A5E /* TableViewInCellUITests.m */; };
 		B073279C21508E5800D74DFA /* testData.json in Resources */ = {isa = PBXBuildFile; fileRef = B073279B21508E5800D74DFA /* testData.json */; };
 		B07327A421509A0400D74DFA /* opinionData.json in Resources */ = {isa = PBXBuildFile; fileRef = B07327A321509A0400D74DFA /* opinionData.json */; };
+		B0AEE274238F743100160D8E /* AnotherMainContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AEE273238F743100160D8E /* AnotherMainContentCell.m */; };
+		B0AEE279238F74CA00160D8E /* InnerTableFixedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AEE276238F74CA00160D8E /* InnerTableFixedViewController.m */; };
+		B0AEE27A238F74CA00160D8E /* InnerTableCanScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0AEE277238F74CA00160D8E /* InnerTableCanScrollViewController.m */; };
 		D3C74ED42447D856FCB232BB /* libPods-TableViewInCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E0F4D5E33DB053B7A02D7D /* libPods-TableViewInCell.a */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +77,12 @@
 		B058F284214B8D3E00D65857 /* TableViewInCell-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewInCell-PrefixHeader.pch"; sourceTree = "<group>"; };
 		B073279B21508E5800D74DFA /* testData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testData.json; sourceTree = "<group>"; };
 		B07327A321509A0400D74DFA /* opinionData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = opinionData.json; sourceTree = "<group>"; };
+		B0AEE272238F743100160D8E /* AnotherMainContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherMainContentCell.h; sourceTree = "<group>"; };
+		B0AEE273238F743100160D8E /* AnotherMainContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherMainContentCell.m; sourceTree = "<group>"; };
+		B0AEE275238F74CA00160D8E /* InnerTableCanScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerTableCanScrollViewController.h; sourceTree = "<group>"; };
+		B0AEE276238F74CA00160D8E /* InnerTableFixedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerTableFixedViewController.m; sourceTree = "<group>"; };
+		B0AEE277238F74CA00160D8E /* InnerTableCanScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InnerTableCanScrollViewController.m; sourceTree = "<group>"; };
+		B0AEE278238F74CA00160D8E /* InnerTableFixedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InnerTableFixedViewController.h; sourceTree = "<group>"; };
 		E1E0F4D5E33DB053B7A02D7D /* libPods-TableViewInCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableViewInCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -127,6 +136,8 @@
 			children = (
 				B0360547214F4B4A0034CC09 /* PullListTableView.h */,
 				B0360548214F4B4A0034CC09 /* PullListTableView.m */,
+				B0AEE272238F743100160D8E /* AnotherMainContentCell.h */,
+				B0AEE273238F743100160D8E /* AnotherMainContentCell.m */,
 				B036054D214F75840034CC09 /* MainContentCell.h */,
 				B036054E214F75840034CC09 /* MainContentCell.m */,
 				B0360550214F75960034CC09 /* OpinionCell.h */,
@@ -167,6 +178,10 @@
 				B04C5AB8214B503500EE2A5E /* AppDelegate.m */,
 				B04C5ABA214B503500EE2A5E /* ViewController.h */,
 				B04C5ABB214B503500EE2A5E /* ViewController.m */,
+				B0AEE275238F74CA00160D8E /* InnerTableCanScrollViewController.h */,
+				B0AEE277238F74CA00160D8E /* InnerTableCanScrollViewController.m */,
+				B0AEE278238F74CA00160D8E /* InnerTableFixedViewController.h */,
+				B0AEE276238F74CA00160D8E /* InnerTableFixedViewController.m */,
 				B04C5ABD214B503500EE2A5E /* Main.storyboard */,
 				B04C5AC0214B503700EE2A5E /* Assets.xcassets */,
 				B04C5AC2214B503700EE2A5E /* LaunchScreen.storyboard */,
@@ -387,10 +402,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04C5ABC214B503500EE2A5E /* ViewController.m in Sources */,
+				B0AEE27A238F74CA00160D8E /* InnerTableCanScrollViewController.m in Sources */,
 				B0360552214F75960034CC09 /* OpinionCell.m in Sources */,
 				B04C5AC7214B503700EE2A5E /* main.m in Sources */,
+				B0AEE279238F74CA00160D8E /* InnerTableFixedViewController.m in Sources */,
 				B036054C214F72570034CC09 /* CommenModel.m in Sources */,
 				B0360549214F4B4A0034CC09 /* PullListTableView.m in Sources */,
+				B0AEE274238F743100160D8E /* AnotherMainContentCell.m in Sources */,
 				B036054F214F75840034CC09 /* MainContentCell.m in Sources */,
 				B0360555214F78510034CC09 /* OpinionModel.m in Sources */,
 				B04C5AB9214B503500EE2A5E /* AppDelegate.m in Sources */,
