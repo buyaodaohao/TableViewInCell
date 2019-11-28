@@ -69,7 +69,7 @@
             break;
         case 1:
         {
-            cell.textLabel.text = @"嵌套的tableView高度不定，可以滚动";
+            cell.textLabel.text = @"嵌套的tableView高度不定，不可以滚动";
         }
             break;
         default:
