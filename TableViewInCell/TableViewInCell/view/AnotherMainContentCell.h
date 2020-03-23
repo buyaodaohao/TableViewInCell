@@ -15,7 +15,7 @@
 @end
 @interface AnotherMainContentCell : UITableViewCell
 @property(nonatomic,strong)CommenModel *contentModel;
-@property(nonatomic,weak)id<MainContentCellDelegate>delegate;
+@property(nonatomic,weak)id<AnotherMainContentCellDelegate>delegate;
 @property (nonatomic, strong) NSIndexPath *indexPath;
 /**获取cell高度*/
 +(CGFloat)getCommenListCellHeightFromModel:(CommenModel *)model;
